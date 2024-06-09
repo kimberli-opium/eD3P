@@ -33,6 +33,7 @@ This repository provides a Laravel application designed to manage customers, pro
     ```bash
     cp .env.example .env
     ```
+   
     - Generate an application key.
     ```bash
     php artisan key:generate
@@ -43,6 +44,9 @@ This repository provides a Laravel application designed to manage customers, pro
     ```bash
     php artisan migrate
     ```
+
+After copying the .env file, ensure the DB_DATABASE variable contains the absolute path to your SQLite database file. 
+
 
 ### Running the Application
 
