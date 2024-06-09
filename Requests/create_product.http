@@ -1,0 +1,8 @@
+POST http://127.0.0.1:8000/products
+Content-Type: application/json
+
+{
+    "name": "Chair",
+    "price": "20.00",
+    "description": "Some chair"
+}
